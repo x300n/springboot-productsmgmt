@@ -6,7 +6,6 @@ import java.util.Collections;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.User;
 
 public class UserPrincipal implements UserDetails {
 	
@@ -23,7 +22,7 @@ public class UserPrincipal implements UserDetails {
 
 	@Override
 	public String getPassword() {
-		return ((UserDetails) user).getPassword();
+		return user.getPassword();
 	}
 
 	@Override
