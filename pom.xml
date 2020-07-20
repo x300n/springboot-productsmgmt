@@ -11,9 +11,9 @@
 	</parent>
 	<groupId>org.ahmedgaber</groupId>
 	<artifactId>products-manager</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>products-manager</name>
-	<description>Backend application for products management</description>
+	<description>Backend application for Cars</description>
 
 	<properties>
 		<java.version>1.8</java.version>
